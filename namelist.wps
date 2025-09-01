@@ -23,6 +23,7 @@
  truelat2  =  60.0,
  stand_lon = -75.0,
  geog_data_path = './WPS_GEOG/'
+ opt_geogrid_tbl_path = "/wrf/WPS/geogrid/"
 /
 &ungrib
  out_format = 'WPS',
