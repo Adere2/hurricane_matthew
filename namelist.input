@@ -13,7 +13,7 @@
  end_hour                            = 00,
  interval_seconds                    = 21600,
  input_from_file                     = .true.,
- history_interval                    = 180,
+ history_interval                    = 15,
  frames_per_outfile                  = 1,
  restart                             = .false.,
  restart_interval                    = 1440,
@@ -23,18 +23,18 @@
  io_form_boundary                    = 2
 /
 &domains
- time_step                           = 150,
+ time_step                           = 45,
  max_dom                             = 1,
- e_we                                = 91,
- e_sn                                = 100,
- e_vert                              = 45,
+ e_we                                = 273,
+ e_sn                                = 300,
+ e_vert                              = 60,
  p_top_requested                     = 5000,
  num_metgrid_levels                  = 32,
- dx                                  = 27000,
- dy                                  = 27000
+ dx                                  = 9000,
+ dy                                  = 9000
 /
 &physics
- mp_physics                          = 8,
+ mp_physics                          = 10,
  ra_lw_physics                       = 4,
  ra_sw_physics                       = 4,
  radt                                = 27,
