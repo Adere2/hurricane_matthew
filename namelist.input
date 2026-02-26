@@ -10,7 +10,7 @@
  end_year                            = 2016,
  end_month                           = 10,
  end_day                             = 06,
- end_hour                            = 01,
+ end_hour                            = 06,
  interval_seconds                    = 21600,
  input_from_file                     = .true.,
  history_interval                    = 60,
